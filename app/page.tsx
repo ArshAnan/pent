@@ -423,7 +423,7 @@ function MultiFileInput({ uploading, handleFileUpload, uploadedFilename, uploade
               {uploading ? 'Uploading...' : 'Click to Upload ZIP'}
             </div>
             <div className="text-xs text-neutral-600">
-              Max 10MB | Python, JS, TS, Bash, Go, Java
+              Max 250MB | Python, JS, TS, Bash, Go, Java
             </div>
           </label>
         </div>

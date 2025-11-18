@@ -116,7 +116,7 @@ myproject.zip
 
 ### File Limits
 
-- **Maximum ZIP size**: 10 MB
+- **Maximum ZIP size**: 250 MB
 - **Maximum files to analyze**: 50 files
 - **File size**: Individual files within reasonable size
 
@@ -234,7 +234,7 @@ zip -r js-test.zip js-test/
 
 ### "File size exceeds limit"
 
-**Cause:** ZIP file is larger than 10MB
+**Cause:** ZIP file is larger than 250MB
 
 **Solutions:**
 - Remove `node_modules/`, `venv/`, and other large directories

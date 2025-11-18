@@ -7,7 +7,7 @@ Your AI Code Security Analyzer now supports **ZIP file uploads**! You can now an
 ## ✨ New Features
 
 ### 📦 ZIP File Upload
-- Upload entire projects as ZIP files (up to 10MB)
+- Upload entire projects as ZIP files (up to 250MB)
 - Automatic extraction and filtering of code files
 - Support for 50+ files per upload
 - Smart filtering excludes `node_modules/`, `.git/`, config files, etc.
@@ -56,7 +56,7 @@ docs/
 **POST /api/upload**
 - Accepts multipart/form-data with ZIP file
 - Returns extracted code files
-- Maximum size: 10MB
+- Maximum size: 250MB
 
 **POST /api/pentest-multi**
 - Analyzes multiple files
@@ -269,7 +269,7 @@ Total Vulnerabilities: 23
 ## ⚠️ Important Notes
 
 ### File Limits
-- **Max ZIP size**: 10 MB
+- **Max ZIP size**: 250 MB
 - **Max files**: 50 files
 - **Timeout**: 5 minutes total
 
@@ -293,7 +293,7 @@ Total Vulnerabilities: 23
 - Verify extensions are correct (`.py`, `.js`, etc.)
 
 ### Upload is Slow
-- Check ZIP file size (max 10MB)
+- Check ZIP file size (max 250MB)
 - Remove `node_modules/` and dependencies
 - Compress with better compression
 

@@ -73,9 +73,9 @@ export function formatFileSize(bytes: number): string {
 }
 
 /**
- * Get max file size limit (10MB)
+ * Get max file size limit (250MB)
  */
-export const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB
+export const MAX_FILE_SIZE = 250 * 1024 * 1024; // 250MB
 
 /**
  * Get max number of files to analyze
